@@ -1,13 +1,13 @@
 This project compares wind speed data from CMIP6 and EUR-11-CORDEX with the reanalysis ERA5. 
 
 The repository contains the pre-processing, analysis and plotting procedures for
-- the published paper: Sofia Morelli, Nina Effenberger, Luca Schmidt, and Nicole Ludwig (2024). Climate data selection for multi-decadal wind power forecasts. https://doi.org/10.1088/1748-9326/adc01f.
+- the published paper: Sofia Morelli, Nina Effenberger, Luca Schmidt, and Nicole Ludwig (2025). Climate data selection for multi-decadal wind power forecasts. https://doi.org/10.1088/1748-9326/adc01f.
 - the Master's Thesis: Sofia Morelli (2024). The impact of the spatial resolution of wind data on multi-decadal wind power forecasts in Germany. https://arxiv.org/abs/2410.14681.
 
 The figures in Morelli at al. (2024) can be reproduced with the jupyter notebooks in plots using the 
-already pre-processed data for Europe saved in plotting/data_pre-processed.
+already pre-processed data of Europe (expect for the wind speeds needed for demonstration plot 1 since the files are too large) saved in plotting/data_pre-processed.
 
-For re-running the full analysis, the following variables need to be set in settings.py:
+For re-running the full analysis with adaptable region, the following variables need to be set in settings.py:
 - BASE_DIR: local base directory
 - CDSAPI_KEY: personal UID and API Key from the Copernicus website, to create an account visit https://cds.climate.copernicus.eu/#!/home
 
